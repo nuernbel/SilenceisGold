@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Barrio', cursive;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: HotPink;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: Gold;
+}
+
+  h1 {
+    font-family: 'Barrio', cursive;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+    padding: 100px 0 0 0;
+  }
+
+  h1:hover {
+    text-shadow: 2px 2px 5px gold;
+  }
+
+  h2 {
+    font-family: 'Barrio', cursive;
+    font-size: 23px;
+    color: black;
+    text-align: center;
+  }
+
+  h2:hover {
+    text-shadow: 2px 2px 5px red;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: pink;
+  }
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
+    margin: 3px;
+    background: transparent;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    background-color: Gold;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: HotPink;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: HotPink;
+}
+
+.fa-instagram {
+  color: HotPink;
+}
